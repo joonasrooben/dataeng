@@ -580,7 +580,7 @@ A relationship between n values is represented mathematically by an n-tuple of v
 - A **superkey** is a set of one or more attributes that, taken collectively, allow us to identify uniquely a tuple in the relation
 - **candidate keys** are  superkeys for which no proper subset is a superkey
 -  primary key is the chosen candidate key
--  foreign key is s set of attributes from a referenced relation.
+-  foreign key is a set of attributes from a referenced relation.
 
 ^ If K is a superkey, then so is any superset of K
 
@@ -707,7 +707,7 @@ Examples of entities:
  
  Each entity has a **value** for each of its attributes. 
  
- Also relationshis may have attributes called **descriptive attributes**. 
+ Also relationships may have attributes called **descriptive attributes**. 
 
 ### Intution
 
@@ -895,7 +895,7 @@ Curriculum(<u>Institute\_ID</u>,<u>Course\_ID</u>)
 ### Normal Forms (Refresh)
 
 - First Normal Form (1NF) 
-	- A table has only atomic valued clumns.
+	- A table has only atomic valued columns.
 	- Values stored in a column should be of the same domain
 	- All the columns in a table should have unique names.
 	-  And the order in which data is stored, does not matter.
@@ -904,7 +904,7 @@ Curriculum(<u>Institute\_ID</u>,<u>Course\_ID</u>)
 - Third Normal Form (3NF)
 	- A table is in the Second Normal form and every non-prime attribute is non-transitively dependent[^21] on every key
 
-[^20]: $$X \rightarrow Y, \forall A \in X ((X -{A}) \nrightarrow Y)$$
+[^20]: $$X \rightarrow Y, \forall A \in X \colon ((X -{A}) \nrightarrow Y)$$
 [^21]:
 
 ---
