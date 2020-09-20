@@ -176,7 +176,7 @@ Modern data pipeline generalize the notion of ETL (extract, transform, load) to 
 
 ## [[Data Wrangling]]
 
-The process of creating *reliable*  that can be analysed to generate valid actionable insights.
+The process of creating *reliable* data that can be analysed to generate valid actionable insights.
 
 The central goal is to make data usable: to put data in a form that can be easily manipulated by analysis tools.
 
@@ -188,7 +188,7 @@ It includes understanding, cleansing, augmenting and shaping data.
 - ensure metadata that describe data are available
 - ensure that data are sufficiently correct to support successful modeling and decision-making.
 
-The results is data in the best format (e.g., columnar) for the analysis to perform.
+The result is data in the best format (e.g., columnar) for the analysis to perform.
 
 ![right 150%](./attachments/wranglingsteps4.png)
 
@@ -397,7 +397,7 @@ Domain-Driven Design is a **language**- and **domain-centric** approach to softw
 
 DDD promotes the reduction of the translation cost between business and technical terminology by developing an **ubiquitus language**  that embeds domain terminology into the software systems.
 
-DDD consists of a collection of patterns, principles, and practices that allows teams to focus on the core t business goels while crafting software.
+DDD consists of a collection of patterns, principles, and practices that allows teams to focus on the core business goals while crafting software.
 
 ![right fit](https://images-na.ssl-images-amazon.com/images/I/81aA7hEEykL.jpg)
 
